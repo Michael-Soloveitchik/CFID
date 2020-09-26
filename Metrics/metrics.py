@@ -95,7 +95,7 @@ def pinv_diagonal_matrix(A):
 
 def nullify_small_values(A):
     too_littlemask = A<=1e-15
-    A = np.where(too_littlemask, 0, A)  
+    # A = np.where(too_littlemask, 0, A)  
     return A  
 MNIST_calssifier = tf.keras.models.load_model(os.path.join(DIR_BACKUP, 'classification_model'))
 MNIST_calssifier.compile()
