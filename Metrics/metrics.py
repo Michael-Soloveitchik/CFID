@@ -115,7 +115,7 @@ def cfid(y_true, y_predict, x_true, embeding=no_embedding, estimator=sample_cova
     y_predict = [N,k2]
     x_true    = [N,k3]
 
-    embedding - Functon that transform [N,ki] -> [N,m]
+    embedding - Functon that transform [N,ki] -> [N,m], 'no_embedding' might be consider to used, if you working with same dimensions activations.
     estimator - Covariance estimator. Default is sample covariance estimator. 
                 The estimator might be switched to other estimators. Remmember that other estimator must support 'invert' argument
     '''
