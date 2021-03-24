@@ -12,10 +12,9 @@ TensorFlow 2  implementation for Conditional Frechet Inception distance. For exa
 
 <img src='imgs/teaser.jpg' width=850>  
 **Conditional Frechet Inception Distance.**  
-[Michael Soloveitchik](https://www.cs.cmu.edu/~junyanz/),
- [Tzvi Diskin](https://richzhang.github.io/), [Efrat Morin](http://people.eecs.berkeley.edu/~pathak/), [Ami Wiesel].  
- UC Berkeley and Adobe Research  
-In Neural Information Processing Systems, 2017.
+[Michael Soloveitchik](https://new.huji.ac.il/people/%D7%9E%D7%99%D7%9B%D7%90%D7%9C-%D7%A1%D7%95%D7%9C%D7%95%D7%91%D7%99%D7%99%D7%A6%D7%99%D7%A7),
+ [Tzvi Diskin](https://new.huji.ac.il/people/%D7%A6%D7%91%D7%99-%D7%93%D7%99%D7%A1%D7%A7%D7%99%D7%9F), [Efrat Morin](https://en.earth.huji.ac.il/people/efrat-morin), [Ami Wiesel](https://www.cs.huji.ac.il/~amiw/).  
+ The Hebrew University of jerusalem, 2021.
 
 ## Example results
 <img src='imgs/results_matrix.jpg' width=820>  
