@@ -10,10 +10,10 @@ TensorFlow2  implementation of Conditional Frechet Inception Distance metric. Fo
 
 **Note**: The current software works well with TensorFllow 2.4.0
 
-<img src='imgs/teaser.jpg' width=850>  
+<!-- <img src='imgs/teaser.jpg' width=850>   -->
 **Conditional Frechet Inception Distance.**  
-[Michael Soloveitchik](https://new.huji.ac.il/people/%D7%9E%D7%99%D7%9B%D7%90%D7%9C-%D7%A1%D7%95%D7%9C%D7%95%D7%91%D7%99%D7%99%D7%A6%D7%99%D7%A7),
- [Tzvi Diskin](https://new.huji.ac.il/people/%D7%A6%D7%91%D7%99-%D7%93%D7%99%D7%A1%D7%A7%D7%99%D7%9F), [Efrat Morin](https://en.earth.huji.ac.il/people/efrat-morin), [Ami Wiesel](https://www.cs.huji.ac.il/~amiw/).  
+[Michael Soloveitchik](https://new.huji.ac.il/people/%D7%9E%D7%99%D7%9B%D7%90%D7%9C-%D7%A1%D7%95%D7%9C%D7%95%D7%91%D7%99%D7%99%D7%A6%D7%99%D7%A7/),
+ [Tzvi Diskin](https://new.huji.ac.il/people/%D7%A6%D7%91%D7%99-%D7%93%D7%99%D7%A1%D7%A7%D7%99%D7%9F/), [Efrat Morin](https://en.earth.huji.ac.il/people/efrat-morin/), [Ami Wiesel](https://www.cs.huji.ac.il/~amiw/).  
  The Hebrew University of jerusalem, 2021.
 
 ## Example results
