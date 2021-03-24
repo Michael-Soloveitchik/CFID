@@ -1,6 +1,5 @@
 # Conditional Frechet Inception Distance - CFID
-CFID - code repository supporting the paper https://arxiv.org/abs/2103.11521
-
+CFID - code repository supporting the paper 
 Authors: Michael Soloveitchik, Tzvi Diskin and Ami Wiesel
 
 <img src='imgs/day2night.gif' align="right" width=360>
@@ -8,12 +7,12 @@ Authors: Michael Soloveitchik, Tzvi Diskin and Ami Wiesel
 <br><br><br><br>
 
 # BicycleGAN
-[Project Page](https://junyanz.github.io/BicycleGAN/) |  [Paper](https://arxiv.org/abs/1711.11586) | [Video](https://youtu.be/JvGysD2EFhw)
+[Project Page](https://michael-soloveitchik.github.io/CFID/) |  [Paper](https://arxiv.org/abs/2103.11521)
 
 
-Pytorch implementation for multimodal image-to-image translation. For example,  given the same night image, our model is able to synthesize possible day images with different types of lighting, sky and clouds. The training requires paired data.
+TensorFlow 2  implementation for Conditional Frechet Inception distance. For example, given low-resolution (LR) image and ground-truth high-resolution image (HR) and some super-resolution model (SR). CFID metric is able to measure the exact distance between HR and SR given LR. In compare to Frechet Inception Distance (FID), CFID is able to measure the similiarity to the input LR image. Unlike FID the comparasion training requires paired data.
 
-**Note**: The current software works well with PyTorch 0.41+. Check out the older [branch](https://github.com/junyanz/BicycleGAN/tree/pytorch0.3.1) that supports PyTorch 0.1-0.3.
+**Note**: The current software works well with TensorFllow 2.4.0
 
 <img src='imgs/teaser.jpg' width=850>  
 
