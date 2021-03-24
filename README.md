@@ -1,12 +1,12 @@
-# Conditional Frechet Inception Distance - CFID
+# 
 CFID - code repository supporting the paper 
-Authors: Michael Soloveitchik, Tzvi Diskin and Ami Wiesel
+Authors:
 
 <img src='imgs/day2night.gif' align="right" width=360>
 
 <br><br><br><br>
 
-# BicycleGAN
+# CFID
 [Project Page](https://michael-soloveitchik.github.io/CFID/) |  [Paper](https://arxiv.org/abs/2103.11521)
 
 
@@ -15,10 +15,9 @@ TensorFlow 2  implementation for Conditional Frechet Inception distance. For exa
 **Note**: The current software works well with TensorFllow 2.4.0
 
 <img src='imgs/teaser.jpg' width=850>  
-
-**Toward Multimodal Image-to-Image Translation.**  
-[Jun-Yan Zhu](https://www.cs.cmu.edu/~junyanz/),
- [Richard Zhang](https://richzhang.github.io/), [Deepak Pathak](http://people.eecs.berkeley.edu/~pathak/), [Trevor Darrell](https://people.eecs.berkeley.edu/~trevor/), [Alexei A. Efros](https://people.eecs.berkeley.edu/~efros/), [Oliver Wang](http://www.oliverwang.info/), [Eli Shechtman](https://research.adobe.com/person/eli-shechtman/).  
+**Conditional Frechet Inception Distance.**  
+[Michael Soloveitchik](https://www.cs.cmu.edu/~junyanz/),
+ [Tzvi Diskin](https://richzhang.github.io/), [Efrat Morin](http://people.eecs.berkeley.edu/~pathak/), [Ami Wiesel].  
  UC Berkeley and Adobe Research  
 In Neural Information Processing Systems, 2017.
 
