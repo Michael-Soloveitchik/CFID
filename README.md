@@ -1,7 +1,3 @@
-# 
-CFID - code repository supporting the paper 
-Authors:
-
 <img src='imgs/day2night.gif' align="right" width=360>
 
 <br><br><br><br>
