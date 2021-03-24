@@ -1,4 +1,4 @@
-<img src='images/faces_full (1).png' align="right" width=360>
+<img src='images/faces_full (1).png' align="right" width=500>
 
 <br><br><br><br>
 
