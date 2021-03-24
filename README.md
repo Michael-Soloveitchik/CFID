@@ -35,7 +35,7 @@ TensorFlow2  implementation of Conditional Frechet Inception Distance metric. Fo
 - Clone this repo:
 ```bash
 git clone -b master --single-branch https://github.com/Michael-Soloveitchik/CFID.git
-cd BicycleGAN
+cd CFID
 ```
 - Install TensorFllow and dependencies from https://www.tensorflow.org/ 
 
