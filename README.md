@@ -32,7 +32,12 @@ The models were trained on [Celeb-A](https://www.tensorflow.org/datasets/catalog
 ### Formulas
 
 The CFID formula is rather similiar to FID thus simple and easy to implement.
-<img src='images/image0' width=20>  
+
+Given:
+<img src='images/given-CFID-formula.png' width=20>  
+
+CFID defined as follows:
+<img src='images/CFID-formula.png' width=20>  
 
 
 ## Other Implementations
