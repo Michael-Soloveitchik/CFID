@@ -19,9 +19,10 @@ TensorFlow2 implementation of Conditional Frechet Inception Distance metric. For
 ## Example results
 'good' models defined to be those which output corellate visually with the input. For example when the SR image could be donwsampled back to it's LR input. CFID distinguish between 'good' and 'bad' models while the classic FID metric doesn't. Most of the models that trained on paired data considered to be 'good'. 
 We provide comparasion of CFID with FID on 'good' and 'bad' models. 
-The 'good' models: [Pix2Pix](https://phillipi.github.io/pix2pix/) and [BiCycle-GAN](https://junyanz.github.io/BicycleGAN/) (The were trained on paired data).
 
-The 'bad' models: [Cycle-GAN](https://junyanz.github.io/CycleGAN/) and [MUNIT](https://github.com/NVlabs/MUNIT) (They were trained on un-paired data) 
+The 'good' models are: [Pix2Pix](https://phillipi.github.io/pix2pix/) and [BiCycle-GAN](https://junyanz.github.io/BicycleGAN/) (The were trained on paired data).
+
+The 'bad' models are: [Cycle-GAN](https://junyanz.github.io/CycleGAN/) and [MUNIT](https://github.com/NVlabs/MUNIT) (They were trained on un-paired data) 
 
 The models were trained on [Celeb-A](https://www.tensorflow.org/datasets/catalog/celeb_a) dataset
 - **Pix2Pix vs Cycle-GAN**
