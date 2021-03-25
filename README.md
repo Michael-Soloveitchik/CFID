@@ -22,7 +22,8 @@ We provide comparasion of CFID with FID on 'good' and 'bad' models.
 The 'good' models: [Pix2Pix](https://phillipi.github.io/pix2pix/) and [BiCycle-GAN](https://junyanz.github.io/BicycleGAN/) (The were trained on paired data) 
 The 'bad' models: [Cycle-GAN](https://junyanz.github.io/CycleGAN/) and [MUNIT](https://github.com/NVlabs/MUNIT) (They were trained on un-paired data) 
 The models were trained on [Celeb-A](https://www.tensorflow.org/datasets/catalog/celeb_a) dataset
-<img src='images/FID_vs_CFID_5.png' width=300>  
+- **Pix2Pix vs Cycle-GAN**
+- <img src='images/FID_vs_CFID_5.png' width=300>  
 
 
 ### Formulas
@@ -31,7 +32,7 @@ The CFID formula is rather similiar to FID thus simple and easy to implement.
 <img src='images/image_0.png' width=20>  
 
 
-- **Realism** We use the Amazon Mechanical Turk (AMT) Real vs Fake test from [this repository](https://github.com/phillipi/AMT_Real_vs_Fake), first introduced in [this work](http://richzhang.github.io/colorization/).
+ We use the Amazon Mechanical Turk (AMT) Real vs Fake test from [this repository](https://github.com/phillipi/AMT_Real_vs_Fake), first introduced in [this work](http://richzhang.github.io/colorization/).
 
 - **Diversity** For each input image, we produce 20 translations by randomly sampling 20 `z` vectors. We compute LPIPS distance between consecutive pairs to get 19 paired distances. You can compute this by putting the 20 images into a directory and using [this script](https://github.com/richzhang/PerceptualSimilarity/blob/master/compute_dists_pair.py) (note that we used version 0.0 rather than default 0.1, so use flag `-v 0.0`). This is done for 100 input images. This results in 1900 total distances (100 images X 19 paired distances each), which are averaged together. A larger number means higher diversity.
 - 
