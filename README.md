@@ -65,22 +65,14 @@ cd CFID
 If you find this useful for your research, please use the following.
 
 ```
-@ARTICLE{2021arXiv210311521S,
-       author = {Michael Soloveitchik, Tzvi Diskin, Efrat Morin and Ami Wiesel},
-        title = "{Conditional Frechet Inception Distance}",
-      journal = {arXiv e-prints},
-     keywords = {Computer Science - Machine Learning, Computer Science - Computer Vision and Pattern Recognition},
-         year = 2021,
-        month = mar,
-          eid = {arXiv:2103.11521},
-        pages = {arXiv:2103.11521},
-archivePrefix = {arXiv},
-       eprint = {2103.11521},
- primaryClass = {cs.LG},
-       adsurl = {https://ui.adsabs.harvard.edu/abs/2021arXiv210311521S},
-      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+@misc{soloveitchik2021conditional,
+      title={Conditional Frechet Inception Distance}, 
+      author={Michael Soloveitchik and Tzvi Diskin and Efrat Morin and Ami Wiesel},
+      year={2021},
+      eprint={2103.11521},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
 }
-
 ```
 ### Acknowledgements
 
