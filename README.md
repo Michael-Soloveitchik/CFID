@@ -3,7 +3,7 @@
 <br><br><br><br>
 
 # CFID
-[Project Page](https://michael-soloveitchik.github.io/CFID/) |  [Paper](https://arxiv.org/abs/2103.11521)
+[Project Page](https://github.com/Michael-Soloveitchik/CFID/) |  [Paper](https://arxiv.org/abs/2103.11521)
 
 
 TensorFlow2 implementation of Conditional Frechet Inception Distance metric. For example, given a low-resolution (LR) image, ground-truth high-resolution image (HR) and some super-resolution model (SR). The CFID metric is able to measure the exact distance between HR and SR given LR. In comparison to classic Frechet Inception Distance (FID), CFID considers the input LR image. It measureד the similarity between HR and SR regarding the input image. Unlike FID, CFID requires paired (LR,HR) data for comparison.
