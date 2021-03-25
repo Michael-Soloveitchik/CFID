@@ -10,7 +10,7 @@ TensorFlow2 implementation of Conditional Frechet Inception Distance metric. For
 
 We also describe RFID metric as condidate for measuring the distance between distributions, as more simple variant. The corresponding graphical models describe the difference between the metrics: 
 
-FID RFID, CFID
+FID, RFID, CFID
 <img src='images/graphical-models.png' width=1000>  
 
 **Note**: The current software works well with TensorFllow 2.4.0
@@ -66,7 +66,7 @@ If you find this useful for your research, please use the following.
 
 ```
 @ARTICLE{2021arXiv210311521S,
-       author = {{Soloveitchik}, Michael and {Diskin}, Tzvi and {Morin}, Efrat and {Wiesel}, Ami},
+       author = {Michael Soloveitchik, Tzvi Diskin, Efrat Morin and Ami Wiesel},
         title = "{Conditional Frechet Inception Distance}",
       journal = {arXiv e-prints},
      keywords = {Computer Science - Machine Learning, Computer Science - Computer Vision and Pattern Recognition},
