@@ -37,7 +37,7 @@ Given:
 <img src='images/given-CFID-formula.png' width=200>  
 
 CFID defined as follows:
-<img src='images/CFID-formula.png' width=200>  
+<img src='images/CFID-formula.png' width=400>  
 
 
 ## Other Implementations
