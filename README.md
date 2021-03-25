@@ -22,7 +22,7 @@ We provide comparasion of CFID with FID on 'good' and 'bad' models.
 The 'good' models: [Pix2Pix](https://phillipi.github.io/pix2pix/) and [BiCycle-GAN](https://junyanz.github.io/BicycleGAN/) (The were trained on paired data) 
 The 'bad' models: [Cycle-GAN](https://junyanz.github.io/CycleGAN/) and [MUNIT](https://github.com/NVlabs/MUNIT) (They were trained on un-paired data) 
 The models were trained on [Celeb-A](https://www.tensorflow.org/datasets/catalog/celeb_a) dataset
-<img src='imgs/results_matrix.jpg' width=820>  
+<img src='images/FID_vs_CFID_5.png' width=820>  
 
 ## Other Implementations
 - [[Tensorflow]](https://github.com) by __.
