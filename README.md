@@ -14,14 +14,17 @@ TensorFlow2 implementation of Conditional Frechet Inception Distance metric. For
 **Conditional Frechet Inception Distance.**  
 [Michael Soloveitchik](https://new.huji.ac.il/people/%D7%9E%D7%99%D7%9B%D7%90%D7%9C-%D7%A1%D7%95%D7%9C%D7%95%D7%91%D7%99%D7%99%D7%A6%D7%99%D7%A7/),
  [Tzvi Diskin](https://new.huji.ac.il/people/%D7%A6%D7%91%D7%99-%D7%93%D7%99%D7%A1%D7%A7%D7%99%D7%9F/), [Efrat Morin](https://en.earth.huji.ac.il/people/efrat-morin/), [Ami Wiesel](https://www.cs.huji.ac.il/~amiw/).  
- The Hebrew University of jerusalem, 2021.
+ The Hebrew University of Jerusalem, 2021.
 
 ## Example results
+'good' models defined to be those which output corellate visually with the input. For example when the SR image could be donwsampled back to it's LR input. CFID distinguish between 'good' and 'bad' models while the classic FID metric doesn't. Most of the models trained with paired data are 'good'. 
+We provide comparasion of CFID with FID on 'good' and 'bad' models. 
+The 'good' models: [Pix2Pix](https://phillipi.github.io/pix2pix/) and [BiCycle-GAN](https://junyanz.github.io/BicycleGAN/) (The were trained on paired data) 
+The 'bad' models: [Cycle-GAN](https://junyanz.github.io/CycleGAN/) and [MUNIT](https://github.com/NVlabs/MUNIT) (They were trained on un-paired data) 
+The models were trained on [Celeb-A](https://www.tensorflow.org/datasets/catalog/celeb_a) dataset
 <img src='imgs/results_matrix.jpg' width=820>  
 
-
 ## Other Implementations
-- [[Tensorflow]](https://github.com) by __.
 - [[Tensorflow]](https://github.com) by __.
 
 ## Prerequisites
@@ -48,14 +51,6 @@ For conda users:
 ```bash
 bash ./scripts/install_conda.sh
 ```
-
-
-### Generate Morphing Videos
-- We can also produce a morphing video similar to this [GIF](imgs/day2night.gif) and Youtube [video](http://www.youtube.com/watch?v=JvGysD2EFhw&t=2m21s).
-```bash
-bash ./scripts/video_edges2shoes.sh
-```
-Results can be found at `./videos/edges2shoes/`.
 
 
 ### Metrics
