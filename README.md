@@ -40,8 +40,6 @@ The models were trained on [Celeb-A](https://www.tensorflow.org/datasets/catalog
 - <img src='images/FID_vs_CFID_5.png' width=200>  
 - **biCycle-GAN vs MUNIT**
 - <img src='images/FID_vs_CFID_5.png' width=200>  
-## Other Implementations
-- [[Tensorflow]](https://github.com) by __.
 
 ## Prerequisites
 - Windows, Linux or macOS
