@@ -37,7 +37,8 @@ The 'bad' models are: [Cycle-GAN](https://junyanz.github.io/CycleGAN/) and [MUNI
 The models were trained on [Celeb-A](https://www.tensorflow.org/datasets/catalog/celeb_a) dataset
 - **Pix2Pix vs Cycle-GAN**
 - <img src='images/FID_vs_CFID_5.png' width=200>  
-
+- **biCycle-GAN vs MUNIT**
+- <img src='images/FID_vs_CFID_5.png' width=200>  
 ## Other Implementations
 - [[Tensorflow]](https://github.com) by __.
 
