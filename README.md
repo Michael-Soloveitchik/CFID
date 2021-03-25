@@ -18,9 +18,8 @@ TensorFlow2 implementation of Conditional Frechet Inception Distance metric. For
 
 ### Formulas
 
-The CFID formula is rather similiar to FID thus simple and easy to implement.
+The CFID formula is rather similiar to FID thus simple and easy to implement. Given:
 
-Given:
 <img src='images/given-CFID-formula.png' width=300>  
 
 CFID defined as follows:
