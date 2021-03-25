@@ -80,4 +80,6 @@ archivePrefix = {arXiv},
 ```
 ### Acknowledgements
 
-This code is written by us.
+  The authors are with The Hebrew University of Jerusalem, Israel . This
+research was funded by Center for Interdisciplinary Data Science (CIDR) in
+the Hebrew University, Israel.
