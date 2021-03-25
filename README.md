@@ -57,15 +57,6 @@ cd CFID
 ```
 - Install TensorFllow and dependencies from https://www.tensorflow.org/ 
 
-For pip users:
-```bash
-bash ./scripts/install_pip.sh
-```
-
-For conda users:
-```bash
-bash ./scripts/install_conda.sh
-```
 
 ### Citation
 
