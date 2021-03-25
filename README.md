@@ -8,7 +8,10 @@
 
 TensorFlow2 implementation of Conditional Frechet Inception Distance metric. For example, given a low-resolution (LR) image, ground-truth high-resolution image (HR) and some super-resolution model (SR). The CFID metric is able to measure the exact distance between HR and SR given LR. In comparison to classic Frechet Inception Distance (FID), CFID considers the input LR image. It measureד the similarity between HR and SR regarding the input image. Unlike FID, CFID requires paired (LR,HR) data for comparison.
 
-We also describe RFID metric as condidate for conditional- as more simple The corresponding graphical models for: FID RFID, CFID
+We also describe RFID metric as condidate for measuring the distance between distributions, as more simple variant. The corresponding graphical models describe the difference between the metrics: 
+
+FID RFID, CFID
+<img src='images/graphical-models.png' width=1000>  
 
 **Note**: The current software works well with TensorFllow 2.4.0
 
