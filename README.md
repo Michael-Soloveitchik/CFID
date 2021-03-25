@@ -16,6 +16,16 @@ TensorFlow2 implementation of Conditional Frechet Inception Distance metric. For
  [Tzvi Diskin](https://new.huji.ac.il/people/%D7%A6%D7%91%D7%99-%D7%93%D7%99%D7%A1%D7%A7%D7%99%D7%9F/), [Efrat Morin](https://en.earth.huji.ac.il/people/efrat-morin/), [Ami Wiesel](https://www.cs.huji.ac.il/~amiw/).  
  The Hebrew University of Jerusalem, 2021.
 
+### Formulas
+
+The CFID formula is rather similiar to FID thus simple and easy to implement.
+
+Given:
+<img src='images/given-CFID-formula.png' width=300>  
+
+CFID defined as follows:
+<img src='images/CFID-formula.png' width=1000>  
+
 ## Example results
 'good' models defined to be those which output corellate visually with the input. For example when the SR image could be donwsampled back to it's LR input. CFID distinguish between 'good' and 'bad' models while the classic FID metric doesn't. Most of the models that trained on paired data considered to be 'good'. 
 We provide comparasion of CFID with FID on 'good' and 'bad' models. 
@@ -27,18 +37,6 @@ The 'bad' models are: [Cycle-GAN](https://junyanz.github.io/CycleGAN/) and [MUNI
 The models were trained on [Celeb-A](https://www.tensorflow.org/datasets/catalog/celeb_a) dataset
 - **Pix2Pix vs Cycle-GAN**
 - <img src='images/FID_vs_CFID_5.png' width=200>  
-
-
-### Formulas
-
-The CFID formula is rather similiar to FID thus simple and easy to implement.
-
-Given:
-<img src='images/given-CFID-formula.png' width=280>  
-
-CFID defined as follows:
-<img src='images/CFID-formula.png' width=900>  
-
 
 ## Other Implementations
 - [[Tensorflow]](https://github.com) by __.
