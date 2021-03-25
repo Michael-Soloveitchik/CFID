@@ -3,7 +3,7 @@
 <br><br><br><br>
 
 # CFID
-[Project Page](https://github.com/Michael-Soloveitchik/CFID/) |  [Paper](https://arxiv.org/abs/2103.11521)
+[Project Page](https://michael-soloveitchik.github.io/CFID/) |  [Paper](https://arxiv.org/abs/2103.11521) | [Code](https://github.com/Michael-Soloveitchik/CFID/)
 
 
 TensorFlow2 implementation of Conditional Frechet Inception Distance metric. For example, given a low-resolution (LR) image, ground-truth high-resolution image (HR) and some super-resolution model (SR). The CFID metric is able to measure the exact distance between HR and SR given LR. In comparison to classic Frechet Inception Distance (FID), CFID considers the input LR image. It measureד the similarity between HR and SR regarding the input image. Unlike FID, CFID requires paired (LR,HR) data for comparison.
@@ -62,11 +62,20 @@ cd CFID
 If you find this useful for your research, please use the following.
 
 ```
-@inproceedings{zhu2017toward,
-  title={Toward multimodal image-to-image translation},
-  author={Zhu, Jun-Yan and Zhang, Richard and Pathak, Deepak and Darrell, Trevor and Efros, Alexei A and Wang, Oliver and Shechtman, Eli},
-  booktitle={Advances in Neural Information Processing Systems},
-  year={2017}
+@ARTICLE{2021arXiv210311521S,
+       author = {{Soloveitchik}, Michael and {Diskin}, Tzvi and {Morin}, Efrat and {Wiesel}, Ami},
+        title = "{Conditional Frechet Inception Distance}",
+      journal = {arXiv e-prints},
+     keywords = {Computer Science - Machine Learning, Computer Science - Computer Vision and Pattern Recognition},
+         year = 2021,
+        month = mar,
+          eid = {arXiv:2103.11521},
+        pages = {arXiv:2103.11521},
+archivePrefix = {arXiv},
+       eprint = {2103.11521},
+ primaryClass = {cs.LG},
+       adsurl = {https://ui.adsabs.harvard.edu/abs/2021arXiv210311521S},
+      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
 }
 ```
 ### Acknowledgements
