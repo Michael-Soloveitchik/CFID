@@ -8,14 +8,14 @@ We consider distance functions between conditional distributions functions. We f
 [Project Page](https://michael-soloveitchik.github.io/CFID/) |  [Paper](https://arxiv.org/abs/2103.11521) | [Code](https://github.com/Michael-Soloveitchik/CFID/)
 
 
-TensorFlow2 implementation of Conditional Frechet Inception Distance metric. For example, given a low-resolution (LR) image, ground-truth high-resolution image (HR) and some super-resolution model (SR). The CFID metric is able to measure the exact distance between HR and SR given LR. In comparison to classic Frechet Inception Distance (FID), CFID considers the input LR image. It measureד the similarity between HR and SR regarding the input image. Unlike FID, CFID requires paired (LR,HR) data for comparison.
+TensorFlow2 implementation of Conditional Frechet Inception Distance metric. For example, given a low-resolution (LR) image, ground-truth high-resolution image (HR) and some super-resolution model (SR). The CFID metric is able to measure the distance between HR and SR given LR. In comparison to classic Frechet Inception Distance (FID), CFID considers the input LR image. It measures the similarity between HR and SR with respect to the input image. Unlike FID, CFID requires paired (LR,HR) data for comparison.
 
-We also describe RFID metric as condidate for measuring the distance between distributions, as more simple variant. The corresponding graphical models describe the difference between the metrics: 
+We also introduce RFID metric as a condidate for measuring the distance between distributions. The corresponding graphical models describe the difference between the metrics: 
 
 FID, RFID, CFID
 <img src='images/graphical-models.png' width=1000>  
 
-**Note**: The current software works well with TensorFllow 2.4.0
+**Note**: The current software works well with TensorFlow 2.4.0
 
 <!-- <img src='imgs/teaser.jpg' width=850>   -->
 **Conditional Frechet Inception Distance.**  
@@ -25,7 +25,7 @@ FID, RFID, CFID
 
 ### Formulas
 
-The CFID formula is rather similiar to FID thus simple and easy to implement. Given:
+The CFID formula is similar to FID, simple and easy to implement. Given:
 
 <img src='images/given-CFID-formula.png' width=300>  
 
@@ -79,5 +79,5 @@ If you find this useful for your research, please use the following.
 ### Acknowledgements
 
   The authors are with The Hebrew University of Jerusalem, Israel . This
-research was funded by Center for Interdisciplinary Data Science (CIDR) in
+research was funded by Center for Interdisciplinary Data Science (CIDR)[https://cidr.huji.ac.il/en/] in
 the Hebrew University, Israel.
