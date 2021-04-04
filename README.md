@@ -1,8 +1,10 @@
-<img src='images/faces_full (1).png' align="center" width=550>
+# CFID
+We consider distance functions between conditional distributions functions. We focus on the Wasserstein metric and its Gaussian case known as the Frechet Inception Distance (FID).We develop conditional versions of these metrics, and analyze their relations. Then, we numerically compare the metrics inthe context of performance evaluation of conditional generative models. Our results show that the metrics are similar in classical models which are less susceptible to conditional collapse. But the conditional distances are more informative in modern unsuper-vised, semisupervised and unpaired models where learning the relations between the inputs and outputs is the main challenge.
+
+<img src='images/Many faces with labels.png' align="center" width=550>
 
 <br><br><br><br>
 
-# CFID
 [Project Page](https://michael-soloveitchik.github.io/CFID/) |  [Paper](https://arxiv.org/abs/2103.11521) | [Code](https://github.com/Michael-Soloveitchik/CFID/)
 
 
