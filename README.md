@@ -79,5 +79,5 @@ If you find this useful for your research, please use the following.
 ### Acknowledgements
 
   The authors are with The Hebrew University of Jerusalem, Israel . This
-research was funded by Center for Interdisciplinary Data Science (CIDR)[https://cidr.huji.ac.il/en/] in
+research was funded by Center for Interdisciplinary Data Science [(CIDR)](https://cidr.huji.ac.il/en/) in
 the Hebrew University, Israel.
