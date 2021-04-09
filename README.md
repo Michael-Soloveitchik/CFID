@@ -59,7 +59,7 @@ The models were trained on [Celeb-A](https://www.tensorflow.org/datasets/catalog
 git clone -b master --single-branch https://github.com/Michael-Soloveitchik/CFID.git
 cd CFID
 ```
-- Install TensorFllow and dependencies from https://www.tensorflow.org/ 
+- Install Tensorflow and dependencies from https://www.tensorflow.org/ 
 
 
 ### Citation
